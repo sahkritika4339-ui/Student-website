@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Signup</title>
+    <link rel="stylesheet"href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Student Signup</h1>
+        <p>Create your student learning account</p>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="videos.html">Coding Videos</a>
+        <a href="signup.html">Sign up</a>
+    </nav>
+
+    <div class = "form-container">
+
+        <h2>Create Your Account</h2>
+
+        <form>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name"
+                    placeholder="Enter your full name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"
+                    placeholder="Enter your email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone"
+                    placeholder="Enter your phone number">
+
+
+            <label for="course">Choose Your Topic:</label>
+ 
+            <select id="course" name="course">
+                <option value="">Select a topics</option>
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="javascript">Javascript</option>
+                <option value="python">Python</option>
+                <option value="c programming">C Programming</option>
+                <option value="java">Java</option>
+            </select>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password"
+                    placeholder="Create a password" required>
+
+            <label for="message">About You:</label>
+            <textarea id="message" name="message"></textarea>
+                
+            
+
+            <button type="submit">Create Account</button>
+    </form>
+
+    </div>
+
+    <footer>
+        <p>© 2026 Student Learning Hub</p>
+    </footer>
+</body>
+</html>
